@@ -20,3 +20,5 @@ use module rules test
 npm install --save-dev html-webpack-plugin
 npm install --save-dev clean-webpack-plugin
 npm install webpack-dev-server --save-dev
+
+set remote as well
