@@ -6,6 +6,6 @@ import createBackgroundImage from './background_image';
 
 function init() {
   createDiv('World');
-  createBackgroundImage({ webpack });
+  createBackgroundImage(webpack);
 }
 init();
