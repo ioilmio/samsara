@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 1px solid red;
+}
+
+.hello {
+  background: #3262c9;
+}
+
+div {
+  border: 1px solid green;
+}

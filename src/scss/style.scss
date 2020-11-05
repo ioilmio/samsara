@@ -1,0 +1,16 @@
+$hightlight: rgb(50, 98, 201);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 1px solid red;
+}
+
+.hello {
+  background: $hightlight;
+}
+
+div {
+  border: 1px solid green;
+}
