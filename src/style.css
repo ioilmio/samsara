@@ -1,14 +1,24 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  border: 1px solid red;
+nav {
+  background-color: black;
 }
 
-.hello {
-  background: #3262c9;
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
 }
 
-div {
-  border: 1px solid green;
+li {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  border: 3px solid blue;
+  font-family: "LibreFranklin", sans-serif;
+}
+
+section {
+  min-height: 100vh;
 }

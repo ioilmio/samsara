@@ -1,7 +1,7 @@
 {
-  "name": "js_webpack_template",
+  "name": "samsara",
   "version": "1.0.0",
-  "description": "template for javascript project",
+  "description": "a restaurant page built in javascript",
   "private": true,
   "dependencies": {},
   "devDependencies": {
@@ -19,7 +19,6 @@
     "file-loader": "^6.2.0",
     "html-loader": "^1.3.2",
     "html-webpack-plugin": "^4.5.0",
-    "mini-css-extract-plugin": "^1.2.1",
     "node-sass": "^5.0.0",
     "sass-loader": "^10.0.5",
     "style-loader": "^2.0.0",
@@ -34,19 +33,19 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack serve -open",
+    "start": "webpack serve",
     "watch": "webpack --watch",
     "build": "webpack"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ioilmio/js_webpack_template.git"
+    "url": "git+https://github.com/ioilmio/samsara.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ioilmio/js_webpack_template/issues"
+    "url": "https://github.com/ioilmio/samsara/issues"
   },
-  "homepage": "https://github.com/ioilmio/js_webpack_template#readme"
+  "homepage": "https://github.com/ioilmio/samsara#readme"
 }

@@ -13,7 +13,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'webpack',
+      title: 'Samsara',
       templates: 'src/source.html',
     }),
   ],
@@ -36,6 +36,7 @@ module.exports = {
         test: /\.(woff|woff2|eot|ttf|otf)$/,
         use: [
           'file-loader',
+          'style-loader',
         ],
       },
       {
