@@ -1,42 +1,29 @@
-// @font-face {
-//   font-family: "LibreFranklin";
-//   src:
-//     url("../assets/font/LibreFranklin-Regular.ttf") format("ttf"),
-//     url("../assets/font/LibreFranklin-Regular.ttf") format("ttf");
-//   font-weight: 400;
-//   font-style: normal;
-// }
+@import "reset";
+@import "nav";
+@import "contact";
+@import "menu";
 
-// $hightlight: rgb(50, 98, 201);
+@font-face {
+  font-family: "LibreFranklin";
+  src: url('./assets/font/LibreFranklin-VariableFont_wght.ttf') format('ttf');
+  font-weight: 800;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-// * {
+
+
+// body {
 //   box-sizing: border-box;
 //   margin: 0;
 //   padding: 0;
 // }
 
-nav {
-  background-color: black;
-}
-
-ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  list-style: none;
-  // border: 3px solid gold;
-}
-
-li {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  background-color: black;
-  color: white;
-  border: 3px solid blue;
-  font-family: "LibreFranklin", sans-serif ;
-}
-
-section {
-  min-height: 100vh;
-}
+// @mixin bg-image($image, $repeat: no-repeat, $size: cover) {
+//   background-image: url($image);
+//   background-size: $size;
+//   background-repeat: $repeat;
+// }

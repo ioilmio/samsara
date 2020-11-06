@@ -1,0 +1,19 @@
+nav {
+  background-color: black;
+  
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    
+    li {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+      color: white;
+      font-family: "LibreFranklin", sans-serif;
+    }
+  }
+}

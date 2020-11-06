@@ -1,11 +1,10 @@
 import htmlTag from './htmlTags';
 // import imgTag from './imageTag';
 // import contactPageImage from './assets/images/contactPage.jpg';
-
+// import samsaraLogoSm from './assets/images/samsara-logo/md-black.svg'
 export default function menuPage() {
-  const menu = htmlTag('section', 'menu', 'page');
-  // const image = imgTag(contactPageImage, 'contactPageImage', 'section-image');
-  menu.textContent = 'Menu';
-  document.body.appendChild(menu);
-  // document.menu.appendChild(image);
+  const main = document.getElementById('main');
+  const menuSection = htmlTag('section', 'menu', 'page');
+  main.textContent = 'main';
+  main.appendChild(menuSection);
 }

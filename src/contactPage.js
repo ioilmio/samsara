@@ -1,12 +1,18 @@
 import htmlTag from './htmlTags';
-// import imgTag from './imageTag';
-// import contactPageImage from './assets/images/contactPage.jpg';
+import imgTag from './imageTag';
+import LogoSm from './assets/samsara-logo/sm-black.svg';
+
 
 export default function contactPage() {
   const contact = htmlTag('section', 'contact', 'page');
-  // const image = imgTag(contactPageImage, 'contactPageImage', 'section-image');
+  const heroLogo = imgTag(LogoSm, 'hero-logo-contact', 'hero-box logo');
+  const heroBox = htmlTag('div', 'hero-logo-box', 'hero-box');
+  const herotext = htmlTag('h2', 'hero-logo-text', 'hero-box text');
+  herotext.textContent = ('Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quae quisquam incidunt dolorum nihil perspiciatis quasi.');
 
   contact.textContent = 'contact';
   document.body.appendChild(contact);
-  // document.contact.appendChild(image);
+  contact.appendChild(heroBox);
+  heroBox.appendChild(heroLogo);
+  heroBox.appendChild(herotext);
 }
