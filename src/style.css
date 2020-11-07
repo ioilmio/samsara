@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "LibreFranklin";
+  src: url("./assets/font/LibreFranklin-VariableFont_wght.ttf") format("ttf");
+  font-weight: 800;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 nav {
   background-color: black;
 }
@@ -21,35 +33,46 @@ nav ul li {
 #contact {
   height: 100vh;
   width: 100%;
-  background-size: contain;
+  background-size: cover;
+  background-position: center center;
   background-image: url("./assets/images/contactPage.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   font-size: 2rem;
 }
 
-#contact #heroLogo img {
-  border: 10px solid green;
-  position: 500 500;
-}
-
 #menu {
   height: 100vh;
   width: 100%;
   background-size: contain;
-  background-image: url("./assets/images/contactPage.jpg");
+  background-image: url("./assets/images/menuPage.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-@font-face {
-  font-family: "LibreFranklin";
-  src: url("./assets/font/LibreFranklin-VariableFont_wght.ttf") format("ttf");
-  font-weight: 800;
+#about {
+  position: relative;
+  width: 100%;
+  background-size: contain;
+  background-image: url("./assets/images/aboutPage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+#about #about-box {
+  position: relative;
+  top: 10%;
+  font-size: 1em;
+  padding: 2em;
+}
+
+#about #about-box #about-text {
+  background-color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-family: "LibreFranklin", sans-serif;
+  font-weight: 100;
+  margin: 2em auto;
+  padding: 2em;
+  width: 50%;
+  color: #585858;
 }

@@ -5,6 +5,5 @@ import htmlTag from './htmlTags';
 export default function menuPage() {
   const main = document.getElementById('main');
   const menuSection = htmlTag('section', 'menu', 'page');
-  main.textContent = 'main';
   main.appendChild(menuSection);
 }

@@ -10,7 +10,6 @@ export default function contactPage() {
   const herotext = htmlTag('h2', 'hero-logo-text', 'hero-box text');
   herotext.textContent = ('Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quae quisquam incidunt dolorum nihil perspiciatis quasi.');
 
-  contact.textContent = 'contact';
   document.body.appendChild(contact);
   contact.appendChild(heroBox);
   heroBox.appendChild(heroLogo);

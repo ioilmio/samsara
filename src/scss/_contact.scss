@@ -1,16 +1,8 @@
-@mixin bg-image($image, $repeat: no-repeat, $size: cover) {
-  background-image: url($image);
-  background-size: $size;
-  background-repeat: $repeat;
-}
 #contact {
   height: 100vh;
   width: 100%;
-  background-size: contain;
+  background-size: cover;
+  background-position: center center;
   @include bg-image("./assets/images/contactPage.jpg");
   font-size: 2rem;
-  #heroLogo img{
-    border: 10px solid green;
-    position: 500 500;
-  }
 }

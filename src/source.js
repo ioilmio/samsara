@@ -1,8 +1,8 @@
 import './style.css';
 import navBar from './navbar';
 import mainSection from './mainSection';
-// import menuPage from './menuPage';
-// import aboutPage from './aboutPage';
+import menuPage from './menuPage';
+import aboutPage from './aboutPage';
 import contactPage from './contactPage';
 
 
@@ -12,10 +12,10 @@ function init() {
   // const main =
   mainSection();
   // const menu =
-  // menuPage();
+  menuPage();
   // document.body.appendChild(main);
   // const about =
-  // aboutPage();
+  aboutPage();
   // const contact =
   contactPage();
   // document.body.appendChild(navbar);
