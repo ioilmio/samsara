@@ -4,5 +4,9 @@
   background-size: cover;
   background-position: center center;
   @include bg-image("./assets/images/contactPage.jpg");
-  font-size: 2rem;
+  .hero-box .text {
+    font-size:1rem;
+    color: red;
+    margin-top: 1rem;
+  }
 }

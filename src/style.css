@@ -38,7 +38,12 @@ nav ul li {
   background-image: url("./assets/images/contactPage.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  font-size: 2rem;
+}
+
+#contact .hero-box .text {
+  font-size: 1rem;
+  color: red;
+  margin-top: 1rem;
 }
 
 #menu {
