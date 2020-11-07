@@ -1,12 +1,22 @@
 #contact {
-  height: 100vh;
+  // height: 100vh;
   width: 100%;
   background-size: cover;
   background-position: center center;
   @include bg-image("./assets/images/contactPage.jpg");
   .hero-box .text {
+    background-color: rgba(255, 255, 255, 0.7);
     font-size:1rem;
-    color: red;
-    margin-top: 1rem;
+    padding: 2rem;
+    // color: red;
+    margin:2rem auto;
+    text-align: right;
+    h2{
+      margin-right:100rem;
+    }
+    img {
+      width:80px;
+      height: 80px;
+    }
   }
 }
