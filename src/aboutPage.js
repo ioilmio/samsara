@@ -14,5 +14,5 @@ export default function aboutPage() {
   about.appendChild(aboutBox);
   aboutBox.appendChild(aboutText);
   aboutBox.appendChild(aboutText1);
-  aboutBox.appendChild(aboutText2);    
+  aboutBox.appendChild(aboutText2);
 }

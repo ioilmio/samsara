@@ -1,33 +1,28 @@
 #menu {
-  // height: 120vh;
-  // width: 100%;
-  // background-size: contain;
-  // background-position: center center;
   @include bg-image("./assets/images/menuPage.jpg");
 }
+
 #menu-grid {
-  // margin-top: 10rem;
-  // position: relative;
   display: grid;
-  grid: center;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   grid-gap: 2rem;
-  // padding: 5rem;
-  background-color: rgba(255, 255, 255,0.5);
+  background-color: rgba(255, 255, 255, 0.5);
+
   .grid-box {
     width: 300px;
     height: 300px;
-    text-align:center;
-    color: rgba(255, 255, 255,1);
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
     background-color: rgb(0, 0, 0);
     padding-top: 1rem;
     font-family: "LibreFranklin", sans-serif;
     margin: 3rem 3rem;
-    border-radius:10px;
-    img{
+    border-radius: 10px;
+
+    img {
       width: 100%;
       height: auto;
-      border-radius:10px;
+      border-radius: 10px;
     }
   }
 }

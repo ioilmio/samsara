@@ -3,9 +3,11 @@
   width: 100%;
   // background-size: contain;
   @include bg-image("./assets/images/aboutPage.jpg");
+
   #about-box {
     font-size: 1em;
     padding: 2em;
+
     #about-text {
       background-color: rgba(255, 255, 255, 0.6);
       text-align: center;
