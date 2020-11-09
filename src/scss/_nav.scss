@@ -2,7 +2,7 @@ nav {
   background-color: black;
   
   ul {
-    height: 150px;
+    // height: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -15,6 +15,7 @@ nav {
       background-color: black;
       color: white;
       font-family: "LibreFranklin", sans-serif;
+      cursor: pointer;
     }
   }
 }

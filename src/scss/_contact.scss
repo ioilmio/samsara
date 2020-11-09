@@ -1,22 +1,27 @@
 #contact {
-  // height: 100vh;
-  width: 100%;
-  background-size: cover;
-  background-position: center center;
+  height: 110vh;
+  // background-position: center center;
   @include bg-image("./assets/images/contactPage.jpg");
+  #imgWrapper {
+    width: 30%;
+    img {
+      width: 100%;
+    }
+  }
   .hero-box .text {
     background-color: rgba(255, 255, 255, 0.7);
     font-size:1rem;
     padding: 2rem;
-    // color: red;
-    margin:2rem auto;
+    width: 30%;
+    margin:2rem auto;    
     text-align: right;
+    font-family: "LibreFranklin", sans-serif;
     h2{
       margin-right:100rem;
     }
     img {
-      width:80px;
-      height: 80px;
+      width:50px;
+      height: 50px;
     }
   }
 }

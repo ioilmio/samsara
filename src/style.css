@@ -15,7 +15,6 @@ nav {
 }
 
 nav ul {
-  height: 150px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -29,23 +28,32 @@ nav ul li {
   background-color: black;
   color: white;
   font-family: "LibreFranklin", sans-serif;
+  cursor: pointer;
 }
 
 #contact {
-  width: 100%;
-  background-size: cover;
-  background-position: center center;
+  height: 110vh;
   background-image: url("./assets/images/contactPage.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+#contact #imgWrapper {
+  width: 30%;
+}
+
+#contact #imgWrapper img {
+  width: 100%;
 }
 
 #contact .hero-box .text {
   background-color: rgba(255, 255, 255, 0.7);
   font-size: 1rem;
   padding: 2rem;
+  width: 30%;
   margin: 2rem auto;
   text-align: right;
+  font-family: "LibreFranklin", sans-serif;
 }
 
 #contact .hero-box .text h2 {
@@ -53,57 +61,51 @@ nav ul li {
 }
 
 #contact .hero-box .text img {
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
 }
 
 #menu {
-  height: 100vh;
-  width: 100%;
-  background-size: contain;
   background-image: url("./assets/images/menuPage.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #menu-grid {
-  position: relative;
   display: grid;
   grid: center;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   grid-gap: 2rem;
-  padding: 1rem;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 #menu-grid .grid-box {
-  margin-top: 5rem;
-  margin-top: 2rem;
-  margin: 0 auto;
   width: 300px;
   height: 300px;
-  font-size: 1rem;
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding-top: 1rem;
   font-family: "LibreFranklin", sans-serif;
+  margin: 3rem 3rem;
+  border-radius: 10px;
 }
 
 #menu-grid .grid-box img {
-  object-fit: contain;
   width: 100%;
   height: auto;
+  border-radius: 10px;
 }
 
 #about {
   position: relative;
   width: 100%;
-  background-size: contain;
   background-image: url("./assets/images/aboutPage.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #about #about-box {
-  position: relative;
-  top: 10%;
   font-size: 1em;
   padding: 2em;
 }

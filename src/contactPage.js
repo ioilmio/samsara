@@ -7,6 +7,7 @@ import IgIcon from './assets/font/instagram-brands.svg';
 
 
 export default function contactPage() {
+  const main = document.getElementById('main');
   const contact = htmlTag('section', 'contact', 'page');
   const contactBox = htmlTag('div', 'hero-logo-box', 'hero-box');
   const imgWrapper = htmlTag('div', 'imgWrapper');
@@ -21,7 +22,7 @@ export default function contactPage() {
   contactText1.textContent = ('Send us a message');
   contactText2.textContent = ('Find us on social media');
 
-  document.body.appendChild(contact);
+  main.appendChild(contact);
   contact.appendChild(contactBox);
 
   contactBox.appendChild(imgWrapper);
