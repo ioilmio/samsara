@@ -1,24 +1,71 @@
-# js_webpack_template
-template for javascript project
-create repo
-copy .github/workflows
-copy linter.yml
-copy eslintrc
-copy stylelintrc
-npm init
-npm install --save-dev stylelint@13.3.x stylelint-scss@3.17.x stylelint-config-standard@20.0.x stylelint-csstree-validator
-npm install --save-dev eslint@6.8.x eslint-config-airbnb-base@14.1.x eslint-plugin-import@2.20.x babel-eslint@10.1.x
-npm install --save-dev webpack webpack-cli
-<!-- npm install -D @webpack-cli/init || npx webpack init and follow istructions. -->
-npm install --save-dev style-loader css-loader
-npm install --save-dev file-loader
+# Project Restaurant Page
 
-create webpack config file
-link everything to webpack 
-use module rules test
+<br />
+<p align="center">
+  <a href="https://github.com/ioilmio/samsara">
+    <img src="microverse-logo.webp" alt="Logo" width="100" height="100">
+  </a>
 
-npm install --save-dev html-webpack-plugin
-npm install --save-dev clean-webpack-plugin
-npm install webpack-dev-server --save-dev
+  <p align="center">
+    This is the First Project of the Microverse JavaScript curriculum!
+    <br />
+    <a href="https://github.com/ioilmio/samsara"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/ioilmio/samsara/issues">Report Bug</a>
+    <a href="https://github.com/ioilmio/samsara/issues">Request Feature</a>
+  </p>
+</p>
 
-set remote as well
+
+## Table of Contents
+
+* [About the Project](#about-the-project)
+  * [Built With](#built-with)
+  * [Usage](#usage)
+* [Author](#author)
+* [Contributing](#contributing)
+* [Acknowledgements](#acknowledgements)
+
+## About The Project
+
+### This is a page for a fictional restaurant, and is intended as MVP;
+
+
+### Built With
+This project was built using these technologies.
+* Javascript ES6
+* Webpack
+* Scss
+* EsLint
+* VsCode
+
+## Live version 
+  [Click here](https://rawcdn.githack.com/ioilmio/samsara/170c0e09a84dad792c46d4cc232e14ba9931966e/dist/index.html)
+
+### Usage
+
+1. Click the link in the nav to navigate between pages;
+
+
+## Author
+
+👤 **Illuminato Salvatore** 
+- Twitter: [@ioilmio](https://twitter.com/ioilmio) 
+- Github: [@ioilmio](https://github.com/ioilmio) 
+- LinkedIn [@IlluminatoSalvatore](https://www.linkedin.com/in/illuminato-salvatore/)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/ioilmio/samsara/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+
+## Acknowledgements
+* [Microverse](https://www.microverse.org/)
+* [The Odin Project](https://www.theodinproject.com/)
