@@ -31,6 +31,37 @@ nav ul li {
   cursor: pointer;
 }
 
+#menu {
+  background-image: url("./assets/images/menuPage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-gap: 2rem;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#menu-grid .grid-box {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding-top: 1rem;
+  font-family: "LibreFranklin", sans-serif;
+  margin: 3rem 3rem;
+  border-radius: 10px;
+}
+
+#menu-grid .grid-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
 #contact {
   height: 110vh;
   background-image: url("./assets/images/contactPage.jpg");
@@ -63,37 +94,6 @@ nav ul li {
 
 #contact #imgWrapper img {
   width: 100%;
-}
-
-#menu {
-  background-image: url("./assets/images/menuPage.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-#menu-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  grid-gap: 2rem;
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
-#menu-grid .grid-box {
-  width: 300px;
-  height: 300px;
-  text-align: center;
-  color: white;
-  background-color: black;
-  padding-top: 1rem;
-  font-family: "LibreFranklin", sans-serif;
-  margin: 3rem 3rem;
-  border-radius: 10px;
-}
-
-#menu-grid .grid-box img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
 }
 
 #about {
