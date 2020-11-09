@@ -5,7 +5,7 @@ import drink from './assets/images/menu-drink.jpg';
 import fruits from './assets/images/menu-fruits.jpg';
 import salad from './assets/images/menu-salad.jpg';
 import steak from './assets/images/menu-steak.jpg';
-import sweet from './assets/images/menu-sweet.jpg';
+import sweet from './assets/images/4.jpg';
 
 export default function menuPage() {
   const main = document.getElementById('main');
@@ -17,7 +17,7 @@ export default function menuPage() {
   const fruitsImage = imgTag(fruits, 'fruits-image', 'box-image');
   const steakImage = imgTag(steak, 'steak-image', 'box-image');
   const sweetImage = imgTag(sweet, 'sweet-image', 'box-image');
-  const pastaBox = htmlTag('div', 'pasta-box', 'grid-box', 'delicious pasta');
+  const pastaBox = htmlTag('div', 'pastaBox', 'grid-box', 'delicious pasta');
   const saladBox = htmlTag('div', 'saladBox', 'grid-box', 'crunchy veg');
   const drinkBox = htmlTag('div', 'drinkBox', 'grid-box', 'great cocktails');
   const fruitBox = htmlTag('div', 'fruitBox', 'grid-box', 'fresh fruits');
