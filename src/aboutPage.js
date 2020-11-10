@@ -1,6 +1,6 @@
 import htmlTag from './htmlTags';
 
-export default function aboutPage() {
+const aboutPage = () => {
   const about = htmlTag('section', 'about', 'page');
   const aboutBox = htmlTag('div', 'about-box', 'about');
   const aboutText = htmlTag('h1', 'about-text', 'about');
@@ -15,4 +15,6 @@ export default function aboutPage() {
   aboutBox.appendChild(aboutText);
   aboutBox.appendChild(aboutText1);
   aboutBox.appendChild(aboutText2);
-}
+};
+
+export { aboutPage as default };

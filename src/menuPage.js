@@ -7,7 +7,7 @@ import salad from './assets/images/menu-salad.jpg';
 import steak from './assets/images/menu-steak.jpg';
 import sweet from './assets/images/4.jpg';
 
-export default function menuPage() {
+const menuPage = () => {
   const main = document.getElementById('main');
   const menuSection = htmlTag('section', 'menu', 'page');
   const grid = htmlTag('div', 'menu-grid', 'page');
@@ -38,4 +38,6 @@ export default function menuPage() {
   grid.appendChild(sweetBox);
   grid.appendChild(fruitBox);
   grid.appendChild(steakBox);
-}
+};
+
+export { menuPage as default };

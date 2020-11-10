@@ -1,11 +1,11 @@
-import './style.css';
+import './style.min.css';
 import navBar from './navbar';
 import mainSection from './mainSection';
 import menuPage from './menuPage';
 import aboutPage from './aboutPage';
 import contactPage from './contactPage';
 
-function init() {
+const init = () => {
   navBar();
   mainSection();
   aboutPage();
@@ -28,6 +28,6 @@ function init() {
       contactPage();
     }
   });
-}
+};
 
 init();

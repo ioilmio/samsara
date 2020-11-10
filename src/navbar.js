@@ -9,7 +9,7 @@ const homeTabLogo = imgTag(xswhite, 'homeTabLogo', 'top-menu-item');
 const contactTab = htmlTag('li', 'contactTab', 'top-menu-item');
 const menuTab = htmlTag('li', 'menuTab', 'top-menu-item');
 
-export default function navBar() {
+const navBar = () => {
   menuTab.textContent = 'MENU';
   contactTab.textContent = 'CONTACT';
   document.body.appendChild(nav);
@@ -18,4 +18,6 @@ export default function navBar() {
   tabs.appendChild(homeTab);
   homeTab.appendChild(homeTabLogo);
   tabs.appendChild(contactTab);
-}
+};
+
+export { navBar as default };

@@ -6,7 +6,7 @@ import WaIcon from './assets/font/whatsapp-brands.svg';
 import IgIcon from './assets/font/instagram-brands.svg';
 
 
-export default function contactPage() {
+const contactPage = () => {
   const main = document.getElementById('main');
   const contact = htmlTag('section', 'contact', 'page');
   const contactBox = htmlTag('div', 'hero-logo-box', 'hero-box');
@@ -33,4 +33,6 @@ export default function contactPage() {
   imgWrapper.appendChild(contactLogo);
   contactBox.appendChild(contactText1);
   contactBox.appendChild(contactText2);
-}
+};
+
+export { contactPage as default };
