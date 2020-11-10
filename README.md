@@ -44,6 +44,15 @@ This project was built using these technologies.
   [Click here](https://rawcdn.githack.com/ioilmio/samsara/170c0e09a84dad792c46d4cc232e14ba9931966e/dist/index.html)
 
 ### Usage
+  Type in your temrinal:
+ * to clone `git clone https://github.com/ioilmio/samsara/tree/feature`
+ * to install dependencies `npm install`
+ * to build the project suing webpack `npm run build`
+ * to run the dev server `npm start`
+
+1. open a browser and go to `localhost:8080`
+2. click the top bar to navigate the pages
+
 
 1. Click the link in the nav to navigate between pages;
 
