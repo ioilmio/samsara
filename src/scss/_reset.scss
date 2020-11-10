@@ -1,0 +1,18 @@
+
+@mixin bg-image($image, $repeat: no-repeat, $size: cover) {
+  background-image: url($image);
+  background-size: $size;
+  background-repeat: $repeat;
+}
+
+@font-face {
+  font-family: "LibreFranklin";
+  src: url('./assets/font/LibreFranklin-VariableFont_wght.ttf') format('ttf');
+  font-weight: 800;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
